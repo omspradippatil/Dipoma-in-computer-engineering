@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Eye-pleasing background color */
+            color: #333;
+        }
+  header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .services-info {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .services-info:hover {
+            transform: translateY(-5px);
+        }
+
+        .services-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .services-info p {
+            margin-bottom: 20px;
+        }
+
+        .services-info img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: #eee;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #ccc;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Upcoming Events List */
+        .upcoming-events {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .event-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .event-item:hover {
+            background-color: #f0f0f0;
+            animation: shake 0.5s ease infinite alternate;
+        }
+
+        @keyframes shake {
+            from {
+                transform: translateX(-2px);
+            }
+            to {
+                transform: translateX(2px);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Upcoming Events</h1>
+        <p>Explore our upcoming events and join us for an unforgettable experience.</p>
+    </header>
+ <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="upcoming-events">
+        <div class="event-item">
+            <h3>Mukesh Ambani's Wedding</h3>
+            <p>Date: June 15, 2024</p>
+            <p>Venue: Mumbai, India</p>
+        </div>
+        <div class="event-item">
+            <h3>Tech Conference</h3>
+            <p>Date: July 20, 2024</p>
+            <p>Venue: Bangalore, India</p>
+        </div>
+        <div class="event-item">
+            <h3>Music Festival</h3>
+            <p>Date: August 5, 2024</p>
+            <p>Venue: Goa, India</p>
+        </div>
+        <div class="event-item">
+            <h3>Corporate Retreat</h3>
+            <p>Date: September 10, 2024</p>
+            <p>Venue: Jaipur, India</p>
+        </div>
+        <div class="event-item">
+            <h3>Art Exhibition</h3>
+            <p>Date: October 15, 2024</p>
+            <p>Venue: New Delhi, India</p>
+        </div>
+        <div class="event-item">
+            <h3>Fashion Show</h3>
+            <p>Date: November 20, 2024</p>
+            <p>Venue: Mumbai, India</p>
+        </div>
+    </section>
+
+   
+    <footer>
+        <p>&copy; 2024 Event Organization</p>
+    </footer>
+</body>
+</html>

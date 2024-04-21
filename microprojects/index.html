@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Organization</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: #eee;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #ccc;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* About Us Section */
+        .about-us, .upcoming-events, .services, .gallery, .contact-us {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 40px auto;
+            max-width: 1200px;
+        }
+
+        .about-us img, .upcoming-events img, .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Event Organization</h1>
+        <p>Your Gateway to Unforgettable Events</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="upcoming-events.html">Upcoming Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>At Event Organization, we specialize in creating memorable and seamless events tailored to your needs. Our experienced team ensures that every detail is taken care of, allowing you to enjoy and celebrate without worries.</p>
+        
+    </section>
+
+    <section class="upcoming-events">
+        <h2>Upcoming Events</h2>
+        <p>Explore our upcoming events and join us for an unforgettable experience. From conferences and seminars to social gatherings and celebrations, we have something for everyone.</p>
+        <a href="gallery.html"><img src="ANI-20230120149-0_1677604856085.png" alt="Upcoming Events Image"></a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Event Organization</p>
+    </footer>
+</body>
+</html>
